@@ -10,4 +10,10 @@ public class Drink extends Product {
         this.percents = percents;
         this.volume = volume;
     }
+
+    public Drink(){
+        super();
+        percents = 0;
+        volume = 0;
+    }
 }

@@ -1,7 +1,6 @@
 package banket.Product;
 
-
-public class Product{
+public abstract class Product{
     public String title;
     public int count;
     public double price;
